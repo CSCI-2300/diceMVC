@@ -8,6 +8,6 @@ import dice.controller.*;
 public class App {
     public static void main(String[] args) {
         Dice dice = new Dice(3);
-        DiceController controller = new DiceController(dice);
+        AnimatedDiceController controller = new AnimatedDiceController(dice);
     }
 }

@@ -26,6 +26,7 @@ public class Dice {
     }
 
     public void rollAll() {
+        System.out.println("Rolling one");
         for (int i = 0; i < values.size(); i++) {
             rollOne(i);
         }
